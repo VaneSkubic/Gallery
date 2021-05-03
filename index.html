@@ -1,34 +1,37 @@
 <!doctype html>
 
 <html>
-<head>
-  
-  <title>Galerija</title>
 
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="style.css">
-  <script src="main.js"></script>
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<head>
+
+    <title>Galerija</title>
+
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="Assets/Images/favicon.png" />
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
 </head>
 
 <body>
 
-  <div class = "imagescontainer"> 
-      <div class = "grid-container">
-        <img src = "Assets/Images/strat2.jpg" alt = 'Slika 1' class = "imagestyling" onclick = "modalPopup('strat2.jpg')">
-        <img src = "Assets/Images/strat.jpg" alt = 'Slika 2' class = "imagestyling" onclick = "modalPopup('strat.jpg')">
-        <img src = "Assets/Images/firebird.jpg" alt = 'Slika 3' class = "imagestyling" onclick = "modalPopup('firebird.jpg')">
-        <img src = "Assets/Images/lespaul2.jpg" alt = 'Slika 4' class = "imagestyling" onclick = "modalPopup('lespaul2.jpg')">
-        <img src = "Assets/Images/tele.jpeg"  alt = 'Slika 5' class = "imagestyling" onclick = "modalPopup('tele.jpeg')">
-        <img src = "Assets/Images/lespaul.jpg"  alt = 'Slika 6' class = "imagestyling" onclick = "modalPopup('lespaul.jpg')">
+    <div class="imagescontainer">
+        <div class="grid-container">
+            <img src="Assets/Images/strat2.jpg" alt='Slika 1' class="imagestyling" onclick="modalPopup('strat2.jpg')">
+            <img src="Assets/Images/strat.jpg" alt='Slika 2' class="imagestyling" onclick="modalPopup('strat.jpg')">
+            <img src="Assets/Images/firebird.jpg" alt='Slika 3' class="imagestyling" onclick="modalPopup('firebird.jpg')">
+            <img src="Assets/Images/lespaul2.jpg" alt='Slika 4' class="imagestyling" onclick="modalPopup('lespaul2.jpg')">
+            <img src="Assets/Images/tele.jpeg" alt='Slika 5' class="imagestyling" onclick="modalPopup('tele.jpeg')">
+            <img src="Assets/Images/lespaul.jpg" alt='Slika 6' class="imagestyling" onclick="modalPopup('lespaul.jpg')">
+        </div>
     </div>
-  </div>
 
-  <div id="modal">
-    <img class="closeButton" src = "Assets/Images/x-icon.png" onclick="collapseModal()"></img>
-    <img id = "modalImage" class = "w3-animate-zoom">
-  </div>
+    <div id="modal">
+        <img class="closeButton" src="Assets/Images/x-icon.png" onclick="collapseModal()"></img>
+        <img id="modalImage" class="w3-animate-zoom">
+    </div>
 
 </body>
+
 </html>
