@@ -1,12 +1,17 @@
 function modalPopup(src) {
 
     document.getElementById('modalImage').src = 'Assets/Images/' + src;
-    document.getElementById('modal').style.display='block';
+    document.getElementById('modal').style.display = 'block';
+
+    document.documentElement.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    })
 
 }
 
-function collapseModal(){
+function collapseModal() {
 
-    document.getElementById('modal').style.display='none';
-    
+    document.getElementById('modal').style.display = 'none';
+
 }
